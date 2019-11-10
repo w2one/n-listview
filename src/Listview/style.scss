@@ -1,0 +1,30 @@
+.pull-list {
+    // margin-top: -20px;
+    .item {
+        display: flex;
+        padding: 0.16rem;
+
+        .row {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            color: #999;
+            width: 0.55rem;
+            font-size: 0.3rem;
+        }
+
+        .row1,
+        .row2,
+        .row3 {
+            color: #f50505;
+        }
+    }
+
+    .am-pull-to-refresh-indicator {
+        font-size: 0.3rem;
+    }
+
+    .am-pull-to-refresh-indicator {
+        margin-top: -0.5rem;
+    }
+}

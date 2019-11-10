@@ -1,0 +1,42 @@
+{
+  "name": "n-calendar",
+  "version": "0.0.2",
+  "description": "calendar component",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config ./example/webpack.dev.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "repository": "git@github.com:w2one/n-calendar.git",
+  "author": "Jay <jay.wang.scorpion@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.11.0",
+    "react-hot-loader": "^4.12.15",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "rmc-list-view": "^0.11.5",
+    "rmc-pull-to-refresh": "^1.0.11"
+  }
+}
